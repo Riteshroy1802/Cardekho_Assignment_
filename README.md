@@ -43,7 +43,10 @@ If applicable, a graph is generated for better visualization.
 🛠️ Setup & Installation
 1️⃣ Install Dependencies
 Ensure you have all required libraries installed:
+```
 pip install -r requirements.txt
+```
 2️⃣ Run the Application
 Start the system with:
+```
 python main.py
