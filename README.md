@@ -1,46 +1,46 @@
-# 📊 CSV Question Answering with AI-Powered SQL Queries
+📊 AI-Powered CSV Analysis & SQL Querying
+Unlock deep insights from your CSV data using natural language! This AI-driven tool transforms CSV files into an interactive SQLite database, allowing users to ask questions in plain English. Powered by an Ollama-based AI model, it intelligently converts queries into SQL, executes them, and delivers clear, structured results. When relevant, it also generates dynamic visualizations to enhance data understanding.
 
-This project allows users to **upload a CSV file**, convert it into an **SQLite database**, and ask questions about the data using **natural language**. The system uses an **Ollama-based AI model** to generate SQL queries, execute them on the database, and return results in a user-friendly format. If required, the system can also generate **graph visualizations**.
+🚀 Why Use This?
+✔ No SQL Knowledge Needed – Just ask questions in natural language!
+✔ Instant Data Processing – Convert CSVs into a fully functional database in seconds.
+✔ AI-Generated SQL Queries – Let the AI handle complex query generation.
+✔ Auto-Generated Charts – Get visual insights when needed.
+✔ Intuitive Gradio UI – A simple interface for seamless interaction.
 
-## 🚀 Features
+⚙️ How It Works
+1️⃣ Upload Your CSV File
+The system reads and extracts column names.
 
-- **CSV to SQL Conversion:** Automatically converts uploaded CSV files into an SQLite database.
-- **AI-Powered Queries:** Uses an Ollama model to generate SQL queries based on user input.
-- **Query Execution:** Runs AI-generated SQL on the database and returns results.
-- **Graph Generation:** If relevant, the AI suggests graphs, and they are dynamically generated.
-- **Gradio UI:** Simple web interface for file upload, question input, and viewing results.
+It automatically converts the CSV into an SQLite database.
 
----
+A statistical summary of the data is generated for reference.
 
-## ⚙️ How It Works
+2️⃣ AI-Powered Query Processing
+The Ollama AI model receives:
 
-### **1️⃣ Upload a CSV File**
-- The system reads the CSV file and extracts column names.
-- It creates an **SQLite database** from the CSV data.
-- The dataset's **summary statistics** are computed.
+A list of column names.
 
-### **2️⃣ Initialize the AI Agent**
-- The Ollama model is given:
-  - The **column names** from the CSV.
-  - A **statistical summary** of the data.
-- The AI is prompted to **generate SQL queries** that match user queries.
+A data summary for better query precision.
 
-### **3️⃣ Ask Questions in Natural Language**
-- When the user asks a question, the system:
-  1. Sends the query to the AI.
-  2. The AI generates an SQL query and an optional graph suggestion.
-  3. The SQL query is executed, and the result is formatted.
-  4. If a graph is needed, it is generated using Matplotlib.
+The AI translates user questions into optimized SQL queries.
 
+3️⃣ Ask Questions in Natural Language
+Type your query in plain English (e.g., "What is the average sales per month?").
 
-## 🔧 Installation & Setup
+The system processes your request in four steps:
 
-### **1️⃣ Install Dependencies**
-```bash
+AI interprets the question and generates an SQL query.
+
+Query executes, fetching relevant data.
+
+Results are displayed in a structured format.
+
+If applicable, a graph is generated for better visualization.
+🛠️ Setup & Installation
+1️⃣ Install Dependencies
+Ensure you have all required libraries installed:
 pip install -r requirements.txt
-```
-
-## Running the project
-```bash
+2️⃣ Run the Application
+Start the system with:
 python main.py
-```
