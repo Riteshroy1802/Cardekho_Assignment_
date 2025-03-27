@@ -40,6 +40,7 @@ Query executes, fetching relevant data.
 Results are displayed in a structured format.
 
 If applicable, a graph is generated for better visualization.
+
 🛠️ Setup & Installation
 
 1️⃣ Install Dependencies
