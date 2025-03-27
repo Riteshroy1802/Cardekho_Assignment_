@@ -41,6 +41,7 @@ Results are displayed in a structured format.
 
 If applicable, a graph is generated for better visualization.
 🛠️ Setup & Installation
+
 1️⃣ Install Dependencies
 Ensure you have all required libraries installed:
 ```
