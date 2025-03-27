@@ -16,6 +16,7 @@ Unlock deep insights from your CSV data using natural language! This AI-driven t
 ✔ Intuitive Gradio UI – A simple interface for seamless interaction.
 
 
+
 ⚙️ How It Works
 
 
